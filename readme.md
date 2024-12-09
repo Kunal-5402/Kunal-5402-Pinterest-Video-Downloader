@@ -1,6 +1,6 @@
 # Pinterest Video Downloader
 
-This is a simple Python script developed by Harshit to download videos from Pinterest.
+The project is a clone of the project made by ([@Harshit](https://github.com/UxHarshit/PinterestVideoDownloader)) with better HTTP error handling so that if someone wants can convert this script to a fastapi backed with pydantic validation.
 
 The script makes use of popular Python libraries including requests, BeautifulSoup, tqdm, re, and datetime. It downloads video content from Pinterest by parsing the HTML content and identifying the source of the video. 
 
@@ -18,6 +18,7 @@ You can install these libraries using pip:
 pip install requests beautifulsoup4 tqdm
 ```
 **Note**: re and datetime are both standard libraries in Python, so you don't need to install them.
+**Additional Note**: Make a virtual enviornment just incase you don't wanna mess up your global dependencies.
 
 ## How to use
 
